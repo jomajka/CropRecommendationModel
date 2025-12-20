@@ -9,7 +9,7 @@ The application includes:
 - Interactive prediction using sliders and buttons
 ## Features
 - Trains a Random Forest Classifier on labeled crop data 
-- Displays exploratory visualizations:
+- Displays exploratory visualizations
 - Calculates and prints model accuracy
 - Interactive UI for real-time crop prediction using ipywidgets
 
@@ -29,17 +29,17 @@ The project uses a CSV dataset (Crop_recommendation.csv) containing agricultural
 - Temperature
 - Humidity
 - Soil pH
-- Rainfall
+- Rainfall\
 **Target Label:** Crop type
 
 ## Installation & Setup
-1.	Clone the repository:
-git clone https://github.com/yourusername/crop-recommendation-system.git
+1.	Clone the repository:\
+git clone https://github.com/yourusername/crop-recommendation-system.git\
 cd crop-recommendation-system
-2.	(Recommended) Create and activate a virtual environment:
-python -m venv venv
+2.	(Recommended) Create and activate a virtual environment:/
+python -m venv venv/
 source venv/bin/activate   # Windows: venv\Scripts\activate
-3.	Install required libraries:
+3.	Install required libraries:\
 pip install pandas scikit-learn matplotlib ipywidgets\
 Note: This project is designed to run in a Jupyter Notebook environment for full interactivity.
 ## How to Run
@@ -47,11 +47,11 @@ Note: This project is designed to run in a Jupyter Notebook environment for full
 jupyter notebook
 2.	Open the notebook containing the project code.
 3.	Run all cells. The program will:
-- Load the dataset
-- Display exploratory plots
-- Train the machine learning model
-- Print model accuracy
-- Display interactive sliders and a Predict Crop button
+   - Load the dataset
+   - Display exploratory plots
+   - Train the machine learning model
+   - Print model accuracy
+   - Display interactive sliders and a Predict Crop button
 ________________________________________
 ## Example Output
 Model Accuracy: 0.96\
@@ -68,5 +68,5 @@ Users can adjust input values using sliders and click Predict Crop to generate r
 Jonathon Majka\
 B.S. Computer Science – Western Governors University\
 GitHub: github.com/jomajka
-##License
+## License
 This project is for educational purposes.
