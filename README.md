@@ -29,15 +29,16 @@ The project uses a CSV dataset (Crop_recommendation.csv) containing agricultural
 - Temperature
 - Humidity
 - Soil pH
-- Rainfall\
+- Rainfall
+
 **Target Label:** Crop type
 
 ## Installation & Setup
 1.	Clone the repository:\
-git clone https://github.com/yourusername/crop-recommendation-system.git\
+git clone https://github.com/yourusername/crop-recommendation-system.git \
 cd crop-recommendation-system
-2.	(Recommended) Create and activate a virtual environment:/
-python -m venv venv/
+2.	(Recommended) Create and activate a virtual environment:\
+python -m venv venv\
 source venv/bin/activate   # Windows: venv\Scripts\activate
 3.	Install required libraries:\
 pip install pandas scikit-learn matplotlib ipywidgets\
